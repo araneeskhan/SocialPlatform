@@ -35,7 +35,7 @@ const Navbar = () => {
       {/* Right  */}
       <div className="font-mono font-bold text-lg text-purple-600">
         <ClerkLoading>
-          <div>
+          <div className="hidden md:flex gap-4">
             <button type="button" className="bg-purple-500 text-white px-4 py-2 rounded-2xl flex items-center" disabled>
               <svg
                 className="mr-3 h-5 w-5 animate-spin text-white font-bold"
